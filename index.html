@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zekri Akram</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/2336da5fbc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">My Social Media</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Zekri</span><br>Akram From Morocco</h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user1.png" alt="Profile Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Zekri Akram, at just 15 years old, 
+                        is already making a significant impact 
+                        in the world of software engineering. 
+                        Driven by an insatiable curiosity 
+                        and a natural talent for coding,
+                        he's quickly become a standout 
+                        in his field.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Games Development</span><br>Making Games using Unity and Unreal Engine 5</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Game Development Mastery with Industry Experts</li>
+                            <li><span>2019 - 2022</span><br>Team Leader at Zekri LLC.</li>
+                            <li><span>2021</span><br>Internship at Google</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I am currently engaged in managing several distinct web design projects, 
+                        each possessing its own unique intricacies and demands.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-gamepad"></i>
+                    <h2>Game Maker</h2>
+                    <p>I am presently immersed in overseeing multiple distinct game development endeavors,
+                        each characterized by its own intricate nuances and specific requirements.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>UI/UX</h2>
+                    <p>I am currently involved in the management of various distinct UI/UX design projects,
+                        each showcasing its own intricate complexities and individual requisites.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Social Media</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="Instagram">
+                    <div class="layer">
+                        <h3>Instagram</h3>
+                        <p>On my Instagram account, I have amassed a substantial following of 22,000 individuals hailing from diverse regions across the globe. This global reach reflects a broad international audience that engages with the content I share on the platform.</p>
+                        <a href="https://www.instagram.com/its_zekri/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="Threads">
+                    <div class="layer">
+                        <h3>Threads</h3>
+                        <p>Within my Threads account, I curate and share a selection of humorous and culturally relevant memes. This serves as a means to foster lighthearted engagement and relatable content for my close friends and contacts in this more intimate communication space.</p>
+                        <a href="https://www.threads.net/@its_zekri"><i class="fa-brands fa-threads"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="YouTube">
+                    <div class="layer">
+                        <h3>YouTube</h3>
+                        <p>On my YouTube channel, I offer a series of meticulously crafted tutorials focused on computer-related subjects. These tutorials are designed to provide insightful guidance, expert tips, and in-depth knowledge to empower viewers in enhancing their computer literacy and proficiency.</p>
+                        <a href="https://www.youtube.com/channel/UC32egnT4r-YQ9jtwCiBeeuQ"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  akramzekri10@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>  +212 691157363</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/its_zekri/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC32egnT4r-YQ9jtwCiBeeuQ"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.threads.net/@its_zekri"><i class="fa-brands fa-threads"></i></a>
+                </div>
+
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submite</button>
+            </form>
+        </div>
+   </div>
+</div>
+    <div class="copyright">
+        <p>Copyright © 2023 Zekri Akram</p>
+    </div>
+   
+   
+   
+   <script>
+        function opentab(tabname) {
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    
+      
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyfUNtKOZKsdhdJQ4de5Rl_PRi7vs7ZBv2CAccvJ7aA9buTpCfvVOFAJ3e2gqrl7Ww6/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
